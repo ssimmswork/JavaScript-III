@@ -22,9 +22,14 @@ destroy.prototype.name = function() {
 }
 
 
-
-
-
+/*
+  === CharacterStats ===
+    const healthPoints = function(){
+    this.points = points;
+    
+    takeDamage() // prototype method -> returns the string '<object name> took damage.'
+  * should inherit destroy() from GameObject's prototype
+*/
 
 /*
   === Humanoid (Having an appearance or character resembling that of a human.) ===
